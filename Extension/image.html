@@ -1,0 +1,61 @@
+<html>
+<head>
+	<title>Image</title>
+    <style>
+      body {
+     		background-color: #e6e6e6;
+				font-family: 'BebasNeueRegular','Arial','Arial Narrow', 'sans-serif';
+        /*font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;*/
+        font-size: 100%;
+      }
+      #bdiv{
+				text-align: center;
+				width: 800px;
+				height: 10px;
+				margin: 0 auto;
+				position: relative;
+				top: 0;
+				bottom: 0;
+				right: 0;
+				left: 0;
+				/*width: 88%;*/	
+				padding: 18px 6% 60px 6%;
+				/*margin: 0 0 35px 0;*/
+				background: rgba(247, 247, 247, 0.8);
+				border: 1px solid rgba(147, 184, 189,0.8);
+				-webkit-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+				   -moz-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+				        box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+				-webkit-box-shadow: 5px;
+				-moz-border-radius: 5px;
+					 border-radius: 5px;
+			}
+			.button{
+		    border: none;
+		    color: white;
+		    padding: 15px 32px;
+		    text-align: center;
+		    text-decoration: none;
+		    display: inline-block;
+		    font-size: 16px;
+		    margin: 4px 2px;
+		    cursor: pointer;
+			}
+			.button:hover{
+				color: black;
+			}
+    </style>
+</head>
+
+<body>
+	<div id = "bdiv">
+    <button id = "save" class = "button" >Save</button>
+    <button id = "fb" class = "button" style = "background-color: rgb(59,89,152)">Facebook</button>
+    <button id = "tweet" class = "button" style = "background-color: rgb(29,202,205)">Twitter</button>
+    <button id = "drive" class = "button" style = "background-color: rgb(244,194,13)">Drive</button>
+    <button id = "copy" class = "button" >CopyLink</button>
+  </div> 
+  	<!-- <canvas id = "canvas" > </canvas> -->
+    <script src = "image.js"></script>
+</body>
+</html>
